@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
+    background-color: 
   }
   
 .max-svg {
@@ -12,15 +13,16 @@ html, body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 2fr);
+    grid-template-columns: repeat(3, 3fr);
     grid-gap: 10px;
+    width: 80%;
 }
 
 .grid-item {
     position: relative;
 }
 
-.grid-item:hover svg {
+.grid-item:hover object {
     position: fixed;
     top: 0;
     left: 0;
@@ -33,7 +35,7 @@ html, body {
 }
 
 nav {
-    background-color: white;
+    background-color: #ECEBE4;
     overflow: hidden;
   }
 
@@ -53,7 +55,7 @@ nav ul li {
   
 nav ul li a {
     display: block;
-    color: white;
+    color: #1C1C1C;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -62,13 +64,13 @@ nav ul li a {
   
   /* Change the color of links on hover */
 nav ul li a:hover {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #ECEBE4;
+    color: #988F2A;
   }
   
   /* Change the color of the active link */
 nav ul li.active a {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #ECEBE4;
+    color: #988F2A;
   }
   
