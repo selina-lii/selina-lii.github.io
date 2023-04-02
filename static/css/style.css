@@ -49,7 +49,6 @@ nav {
   }
 
 nav ul {
-  
     margin: 0;
     padding: 0;
     list-style: none;
@@ -64,7 +63,7 @@ nav ul li {
   }
   
 nav ul li a {
-    width: 100px;
+    width: 150px;
     display: block;
     color: #252323;
     text-align: center;
@@ -72,6 +71,7 @@ nav ul li a {
     transition: 0.3s;
     text-decoration: none;
     font-family: Arial, sans-serif;
+    font-size: 18px;
   }
   
 nav ul li a:hover {
@@ -102,7 +102,7 @@ footer {
 footer p {
     color: #252323;
     text-decoration: none;
-    font-family: Merriweather;
+    font-family: Arial;
   }
 
 footer a {
