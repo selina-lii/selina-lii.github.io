@@ -20,8 +20,8 @@ div {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(1, 5fr);
-    grid-gap: 0;
-    width: 70%;
+    grid-gap: 10px;
+    width: 85%;
     margin: 50px auto;
   }
 
@@ -103,7 +103,7 @@ nav ul li a {
     transition: 0.3s;
     text-decoration: none;
     font-family: 'Merriweather', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
   }
   
 nav ul li a:hover {
