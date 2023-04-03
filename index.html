@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <title>Selina Li</title>
 </head>
 
@@ -10,38 +12,67 @@
 
     <nav>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/projects.html">All Projects</a></li>
-          <li><a href="https://drive.google.com/file/d/1GrQjMR8_1VgjrvPP8RmiZI0fBoD110WP/view?usp=share_link">CV</a></li>
+          <li><a href="/">About me</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#code">Code & Beyond</a></li>
+          <li><a href="#art">Art</a></li>
+          <!-- <li><a href="https://drive.google.com/file/d/1GrQjMR8_1VgjrvPP8RmiZI0fBoD110WP/view?usp=share_link">CV</a></li> -->
         </ul>
     </nav>
 
-    <div class="max-svg">
-        <object class="max-svg" type="image/svg+xml" data="/static/images/index.svg" alt="Bio"></object class="max-svg">
+    <div class="max-svg" id="home">
+        <object class="max-svg" type="image/svg+xml" data="./static/images/index.svg" alt="Bio"></object class="max-svg">
     </div>
 
 
-		<div class="max-svg">
-			<object class="max-svg" type="image/svg+xml" data="/static/images/fmri.svg" 
-            alt="Personalized fMRI brain networks"></object class="max-svg">
+    <p class="grid-title" id="research">Research</p>
+    <div class="grid-container">
+            <div class="grid-item-special">
+        <object type="image/svg+xml" data="./static/images/fmri.svg" 
+        alt="Personalized fMRI brain networks"></object>
+    </div>
+		<div class="grid-item-special">
+            <object type="image/svg+xml" data="./static/images/2p.svg" 
+            alt="Visualizing Homeostatic Plasticity in Mouse Visual Cortex"></object>
 		</div>
-		<div class="max-svg">
-            <object class="max-svg" type="image/svg+xml" data="/static/images/2p.svg" 
-            alt="Visualizing Homeostatic Plasticity in Mouse Visual Cortex"></object class="max-svg">
+        <div class="grid-item">
+            <object type="image/svg+xml" data="./static/images/sn.svg" 
+            alt="Symptom Networks"></object>
 		</div>
-        <div class="max-svg">
-			<object class="max-svg" type="image/svg+xml" data="/static/images/subway.svg" 
-            alt="SubwayGUI: experiment tracking tool"></object class="max-svg">
-		</div>		
-        <div class="max-svg">
-            <object class="max-svg" type="image/svg+xml" data="/static/images/cat.svg" 
-            alt="Backyard without the Cats (A game scene in Neko Atsume turned 3D)"></object class="max-svg">
-		</div>		
-        <div class="max-svg">
-            <object class="max-svg" type="image/svg+xml" data="/static/images/art.svg" 
-            alt="Selina's random arts collection"></object class="max-svg"></div>
-		</div>
+    </div>
 
+
+    <p class="grid-title" id="code">Code & Beyond</p>
+    <div class="grid-container">
+        <div class="grid-item-special">
+			<object type="image/svg+xml" data="./static/images/subway.svg" 
+            alt="SubwayGUI: experiment tracking tool"></object>
+		</div>		
+        <div class="grid-item">
+            <object type="image/svg+xml" data="./static/images/insta485.svg" 
+            alt="Insta485: Client-side dynamic social media"></object>
+		</div>	
+        <div class="grid-item">
+            <object type="image/svg+xml" data="./static/images/fsae.svg" 
+            alt="Pedal Assembly Formula Student Electric 2019"></object>
+		</div>			
+        <!-- <div class="grid-item">
+            <object type="image/svg+xml" data="./static/images/arduino.svg" 
+            alt="Ultrasonic Distance Sensing with Arduino"></object>
+		</div> -->
+    </div>
+
+    <p class="grid-title" id="art">Art</p>
+    <div class="grid-container">  
+        <div class="grid-item-special">
+            <object type="image/svg+xml" data="./static/images/cat.svg" 
+            alt="Backyard without the Cats (A game scene in Neko Atsume turned 3D)"></object>
+        </div>		
+        <div class="grid-item-special">
+            <object type="image/svg+xml" data="./static/images/art.svg" 
+            alt="Selina's random arts collection"></object>
+        </div>
+    </div>
 
 
 </body>

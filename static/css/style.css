@@ -1,3 +1,4 @@
+
 html, body {
     margin: 0;
     padding: 0;
@@ -18,9 +19,9 @@ div {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 4fr);
-    grid-gap: 50px;
-    width: 80%;
+    grid-template-columns: repeat(1, 5fr);
+    grid-gap: 0;
+    width: 70%;
     margin: 50px auto;
   }
 
@@ -28,24 +29,55 @@ div {
     position: relative;
   }
 
+.grid-item-special {
+  position: relative;
+  z-index: 1;
+  }
+
 .grid-item:hover object {
-  animation-name: hover-effect;
-  animation-duration: 0.5s;
-  animation-delay: 0s;
-  animation-fill-mode: forwards;
+    animation: hover-effect 0.3s forwards;
+  }
+
+.grid-item-special:hover {
+  animation: hover-effect 0.3s forwards;
+}
+
+.grid-title{
+  text-align: center;
+	font-family: 'Merriweather';
+  font-size: 32px;
+  padding: 15px;
+  margin: 0;
+  background-color:#ECEBE4
 }
 
 @keyframes hover-effect {
   100% {
     position: relative;
-    scale: 1.1;
+    scale: 1.02;
     z-index: 999;
   }
+  }
+
+  .grid-item-special:hover::before {
+    content: "Click to learn more";
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-family: 'Comfortaa';
+    text-decoration: underline;
+    color: skyblue;
+    opacity: 0.8;
+    text-align: center;
+    z-index: 999;
   }
 
 nav {
     background-color: #ECEBE4;
     overflow: hidden;
+
   }
 
 nav ul {
@@ -70,8 +102,8 @@ nav ul li a {
     padding: 14px 16px;
     transition: 0.3s;
     text-decoration: none;
-    font-family: Arial, sans-serif;
-    font-size: 18px;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 16px;
   }
   
 nav ul li a:hover {
@@ -102,7 +134,7 @@ footer {
 footer p {
     color: #252323;
     text-decoration: none;
-    font-family: Arial;
+    font-family: 'Merriweather', sans-serif;
   }
 
 footer a {
