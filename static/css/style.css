@@ -59,7 +59,7 @@ div {
   }
   }
 
-  .grid-item-special:hover::before {
+.grid-item-special:hover::before {
     content: "Click to learn more";
     position: absolute;
     top: 5%;
@@ -95,7 +95,7 @@ nav ul li {
   }
   
 nav ul li a {
-    width: 150px;
+    width: 220px;
     display: block;
     color: #252323;
     text-align: center;
