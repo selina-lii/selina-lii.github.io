@@ -12,16 +12,28 @@ div {
   }
 
 .max-svg {
-  margin: 0;
-  padding: 0;
+  position: relative;
   width: 100%;
   }
 
+#index-text{
+  position: relative;
+  width: 30%;
+  margin-right: 15%;
+  margin-bottom: 12%;
+}
+#index-img{
+  position: relative;
+  width: 20%;
+  margin-top: 6%;
+  margin-bottom: 10%;
+}
+
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(1, 5fr);
+    grid-template-columns: repeat(2, 5fr);
     grid-gap: 10px;
-    width: 80%;
+    width: 90%;
     margin: 50px auto;
   }
 
@@ -45,10 +57,11 @@ div {
 .grid-title{
   text-align: center;
 	font-family: 'Merriweather';
-  font-size: 32px;
-  padding: 15px;
-  margin: 0;
-  background-color:#ECEBE4
+  font-size: 18px;
+  margin: auto;
+  padding: 10px 14px;
+  background-color: #ECEBE4;
+  max-width: 90%;
 }
 
 @keyframes hover-effect {
@@ -95,15 +108,15 @@ nav ul li {
   }
   
 nav ul li a {
-    width: 220px;
+    width: 180px;
     display: block;
     color: #252323;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 14px;
     transition: 0.3s;
     text-decoration: none;
     font-family: 'Merriweather', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
   }
   
 nav ul li a:hover {
@@ -127,7 +140,7 @@ footer {
 .footer-title {
     background-color: #FDFBF9;
     text-align: center;
-    font-size: 32px;
+    font-size: 22px;
   }
   
   
@@ -140,5 +153,7 @@ footer p {
 footer a {
   color: #252323;
   text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
   }
   

@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="./static/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4afe4217f9.js" crossorigin="anonymous"></script>
     <title>Selina Li</title>
 </head>
 
@@ -13,27 +14,29 @@
         <ul>
           <li><a href="/">About me</a></li>
           <li><a href="#research">Research</a></li>
-          <li><a href="#code">Code & Beyond</a></li>
+          <li><a href="#code">Code & Tech</a></li>
           <li><a href="#art">Art</a></li>
           <!-- <li><a style="color: #ECEBE4;" href="./ddbh/ddbh.html"></a></li> -->
         </ul>
     </nav>
 
-    <div class="max-svg" id="home">
-        <object class="max-svg" type="image/svg+xml" data="./static/images/index.svg" alt="Bio"></object class="max-svg">
+    <div id="home" style="text-align: center;">
+        <img src="./static/images/index_text.png" alt="Bio" id="index-text">
+
+        <img src="./static/images/index_profile.png" alt="Bio" id="index-img">
     </div>
 
 
     <p class="grid-title" id="research">Research</p>
     <div class="grid-container">
-            <div class="grid-item-special">
-        <object type="image/svg+xml" data="./static/images/fmri.svg" 
-        alt="Personalized fMRI brain networks"></object>
-    </div>
 		<div class="grid-item-special">
             <object type="image/svg+xml" data="./static/images/2p.svg" 
             alt="Visualizing Homeostatic Plasticity in Mouse Visual Cortex"></object>
 		</div>
+        <div class="grid-item-special">
+            <object type="image/svg+xml" data="./static/images/fmri.svg" 
+            alt="Personalized fMRI brain networks"></object>
+        </div>
         <div class="grid-item">
             <object type="image/svg+xml" data="./static/images/sn.svg" 
             alt="Symptom Networks"></object>
@@ -41,7 +44,7 @@
     </div>
 
 
-    <p class="grid-title" id="code">Code & Beyond</p>
+    <p class="grid-title" id="code">Code & Tech</p>
     <div class="grid-container">
         <div class="grid-item-special">
 			<object type="image/svg+xml" data="./static/images/subway.svg" 
@@ -55,29 +58,32 @@
             <object type="image/svg+xml" data="./static/images/fsae.svg" 
             alt="Pedal Assembly Formula Student Electric 2019"></object>
 		</div>			
-        <div class="grid-item">
+        <!-- <div class="grid-item">
             <object type="image/svg+xml" data="./static/images/arduino.svg" 
             alt="Ultrasonic Distance Sensing with Arduino"></object>
-		</div>
+		</div> -->
     </div>
 
     <p class="grid-title" id="art">Art</p>
     <div class="grid-container">  
         <div class="grid-item-special">
-            <object type="image/svg+xml" data="./static/images/cat.svg" 
-            alt="Backyard without the Cats (A game scene in Neko Atsume turned 3D)"></object>
-        </div>		
-        <div class="grid-item-special">
             <object type="image/svg+xml" data="./static/images/art.svg" 
             alt="Selina's random arts collection"></object>
         </div>
+        <div class="grid-item-special">
+            <object type="image/svg+xml" data="./static/images/cat.svg" 
+            alt="Backyard without the Cats (A game scene in Neko Atsume turned 3D)"></object>
+        </div>		
     </div>
 
 </body>
 
 <footer>
-    <p class="footer-title">Contact</p>
-    <p>Feel free to email me at: <a href="mailto:selinali@umich.edu">selinali@umich.edu</a></p>
+    <p>Contact</p>
+    <a href="mailto:selinali@umich.edu"><i class="fa-solid fa-envelope"></i></a>
+    <a href="https://github.com/selinalyx"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/selinali333/"><i class="fa-brands fa-linkedin"></i></a>
+   </p> 
 </footer>
 
 </html>
