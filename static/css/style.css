@@ -31,7 +31,7 @@ div {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 5fr);
+    grid-template-columns: repeat(2, 2fr);
     grid-gap: 10px;
     width: 90%;
     margin: 50px auto;
@@ -59,8 +59,8 @@ div {
 	font-family: 'Merriweather';
   font-size: 18px;
   margin: auto;
-  padding: 10px 14px;
-  background-color: #ECEBE4;
+  padding: 10px 0px;
+  background-color: #ffffff;
   max-width: 90%;
 }
 
@@ -112,7 +112,7 @@ nav ul li a {
     display: block;
     color: #252323;
     text-align: center;
-    padding: 10px 14px;
+    padding: 5px 5px;
     transition: 0.3s;
     text-decoration: none;
     font-family: 'Merriweather', sans-serif;
