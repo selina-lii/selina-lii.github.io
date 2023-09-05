@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4afe4217f9.js" crossorigin="anonymous"></script>
+
+    <title>Selina Li</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+          <li><a href="#me"><span style="color: #2d2d2d;">SELINA LI</span> >>></a></li>
+          <li><a href="/resume.html">RESUME</a></li>
+          <li><a href="#web">Full Stack</a></li>
+          <li><a href="#ml">ML & Data</a></li>
+          <!-- <li><a href="#tools">Tools</a></li> -->
+          <li><a href="#art">Engineering+</a></li>
+          <!-- <li><a style="color: #ECEBE4;" href="./ddbh/ddbh.html"></a></li> -->
+        </ul>
+    </nav>
+
+    <div class="resume-section-title">
+        <h2>Resume</h2>
+        <div>
+            <h4 class="bar">Education</h4>
+            <h4 class="bar">Experience</h4>
+            <h4 class="bar">Projects</h4>
+            <h4 class="bar">Courses</h4>
+            <h4 class="bar">Activities</h4>
+        </div>
+    </div>
+    <br>
+
+        <div class="resume-section">
+            <div class="resume-section-title">
+                Education
+            </div>
+            <div class="education">
+                <h4 class="degree">Bachelor of Science - Computer Science & Neuroscience</h4>
+                <p class="'school">University of Michigan–Ann Arbor, Sep 2021 – Dec 2024</p>
+            </div>
+            <div class="education">
+                <h4 class='degree'>Bachelor of Engineering - Computer Engineering</h4>
+                <p class='school'>Beihang University, Sep 2018 – Jun 2020, Beijing, China (Transferred out)</p>
+            </div>
+        </div>
+
+
+        <div class="resume-section">
+            <div class="resume-section-title">
+                Experience
+            </div>
+            <div class="experience"> 
+                <h4 class="experience-title">Umich Electrical and Computer Engineering - Software Development Research Assistant in Lab of Integrated Brain Imaging</h4>
+                <p class="'experience-info">May 2023 – Present, Ann Arbor, MI</p>
+                <ul class="resume-bullets">
+                    <li>Developed amri-pipeline, a user-friendly Python package for the lab’s generative models for medical images.</li>
+                    <li>Architected modular interfaces for 5 deep learning models (CNN, β-VAE, BERT) and 4 data types (NIfTI, CIfTI)
+                        leveraging OOP design patterns, enabling model application via single functions like encode() and decode().</li>
+                    <li>Constructed data loader, adapter, signal pre-processing (FFT), and accuracy evaluation functionalities.</li>
+                    <li>Created Docker container and deployed package to Linux server (Bash/C Shell) to enable cross-platform access.</li>
+                </ul>
+            </div>
+            <div class="experience"> 
+                <h4 class="experience-title">University of Washington-Seattle - Unity Developer in Virtual Brain Lab</h4>
+                <p class="'experience-info">April 2023 – Present, Remote</p>
+                <ul class="resume-bullets">
+                    <li>Volunteered to develope a 3D visualization feature for two-photon microscopy data in Pinpoint’s Unity backend.</li>
+                    <li>Built sockets to send user videos from Python to Unity C# on Node.js server, and render via shader graphs.</li>
+                    <li>Created documentations, Jupyter sample usages, and helped project founder manage Git. Supported users from 50+ research labs nationwide.</li>
+                </ul>
+            </div>
+            <div class="experience">
+            <h4 class="experience-title">Michigan Neuroscience Institute - Neural Data Research Assistant in Burgess Lab</h4>
+            <p class="'experience-info">May 2022 – Apr 2023, Ann Arbor, MI</p>
+            <ul class="resume-bullets">
+                <li>Migrated a 20TB neural imaging dataset from disk to MongoDB via Python, achieving 95% speedup in analysis.</li>
+                <li>Applied ML metrics (K-L div) to quantify activities of 120K neurons in Python. Created extensive visualizations for
+                    exploratory analysis results, resulting in a presentation to 100+ audience at the university's symposium.</li>
+                <li>Created a flexible GUI for tracking data pipelines using PyQt, saving 20+ hours per experiment for the team.</li>
+            </ul>
+        </div>
+        <div class="experience">
+
+            <h4 class="experience-title">Chinese Institute for Brain Research - Machine Learning + Neuro Research Intern in Cui Lab</h4>
+            <p class="'experience-info">Jan 2021 – Aug 2021, Beijing, China</p>
+            <ul class="resume-bullets">
+                <li>Co-led an interdisciplinary ML research, submitted to Nature BME (IF=29) and secured $60K funding for team.</li>
+                <li>Adapted 2 unsupervised dimensionality reduction models (NMF, MS-HBM) to resting state fMRI time series in 
+                    a large-scale  neuroimaging dataset (80TB) using MATLAB and Shell, 
+                    generated individualized brain networks for 1,200 participants.</li>
+                <li>Performed network analysis to compute edge-level variability matrix, delivering key insights for manuscript.</li>
+            </ul>
+        </div>
+        <div class="experience">
+        <h4 class="experience-title">Chinese Institute for Brain Research - Machine Learning + Neuro Research Intern in Cui Lab</h4>
+            <p class="'experience-info">Jan 2021 – Aug 2021, Beijing, China</p>
+            <ul class="resume-bullets">
+                <li>Co-led an interdisciplinary ML research, submitted to Nature BME (IF=29) and secured $60K funding for team.</li>
+                <li>Adapted 2 unsupervised dimensionality reduction models (NMF, MS-HBM) to resting state fMRI time series in 
+                    a large-scale  neuroimaging dataset (80TB) using MATLAB and Shell, 
+                    generated individualized brain networks for 1,200 participants.</li>
+                <li>Performed network analysis to compute edge-level variability matrix, delivering key insights for manuscript.</li>
+            </ul>
+        </div>
+
+        <div class="experience">
+        <h4 class="experience-title">TuSimple – Autonomous Trucking Simulation Intern</h4>
+        <p class="'experience-info">Aug 2020 – Oct 2020, Beijing, China</p>
+        <ul class="resume-bullets">
+            <li>Collaborated with PM to define and build 250+ edge-case simulations on Triton, identified safety risks in 70% of
+                the cases, and managed JIRA tickets for rapid resolution. Actively improved simulator by fixing 7 fontend bugs.
+                </li>
+            <li>Enhanced self-driving algorithm reliability by 14% in real-life road tests.</li>
+        </ul>
+    </div>
+
+      
+        </div>
+
+
+        <div class="resume-section">
+            <div class="resume-section-title">
+                Projects
+            </div>
+            <div class="experience">
+                 
+                <h4 class="experience-title">Scalable Search Engine | Python, Hadoop, React, RESTful APIs, AWS</h4>
+                <p class="'experience-info"></p>
+                <ul>
+                    <li class="resume-bullet">Built a fault-tolerant Hadoop MapReduce framework by threading over TCP/UDP sockets.</li>
+                    <li>Designed scalable MapReduce pipeline of text (tf-idf) and link analysis (PageRank) to generate inverted index.</li>
+                    <li>Developed a REST API index server, which sends parallel requests to pull JSON-format search results, and
+                        channel to a web interface using ReactJS and SQLite. Deployed to AWS EC2 and tested on 30K web pages.</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+
+        <div class="resume-section">
+            <div class="resume-section-title">
+                Activities
+            </div>
+            <div class="experience">
+                <h4 class="experience-title">AERO Formula Racing - FSAE Brakes Lead</h4>
+                <p class="'experience-info">Jan 2019 – Oct 2020</p>
+                <ul class="resume-bullets">
+                    <li>2019: Engineered pedal box for FSAE Electric, including conceptualization, modeling, FEA optimization, blueprinting, part purchasing, assembly, and cost analysis. National Top 10 in competition.</li>
+                    <li>2020: Coordinated braking system integration for combustion, electric and autonomous cars with other sub teams. Mentored 5 new members during the design cycle.
+                        Helped research and build an emergency braking system for our first autonomous car.</li>
+                </ul>
+            </div>
+        </div>
+
+        
+        <div class="resume-section">
+            <div class="resume-section-title">
+                Coursework
+            </div>
+            <div class="skills">
+                <pre>
+                University of Michigan
+                
+
+                EECS 482: Operating Systems
+                EECS 445: Machine Learning
+                EECS 485: Web Systems
+                EECS 484: Database Management Systems
+                EECS 281: Data Structures & Algorithms
+                EECS 376: Foundations of Computer Science
+                EECS 370: Computer Organization
+                STATS 412: Probability and Statistics
+
+                Beihang University
+
+                Object-Oriented Programming (Java)
+                Operating Systems (Unix)
+                Computer Organization (Verilog, Assembly)
+                Mathematical Analysis I & II (Advanced Calculus, Series)
+                Linear Algebra and 3D Geometry
+
+                Medical Neuroscience - Coursera (Duke University)
+            </pre>
+            </div>
+        </div>
+
+        <div class="resume-section">
+            <div class="resume-section-title">
+                Technical Skills
+            </div>
+            <div class="skills">
+                <p><b>Languages</b>: Python, C/C++, C#, JavaScript, Bash, SQL, NoSQL, HTML/CSS, Java, MATLAB, R, Verilog, Assembly.</p>
+                    <p><b>Tools</b>: React, Flask, Node.js, Docker, Git, AWS, Pytorch, Scikit-learn, Numpy, MongoDB, Oracle, Neo4j, Unix/Linux.</p>
+            </div>
+        </div>
+
+</body>
+
+<footer>
+    <p>Contact</p>
+    <a href="mailto:selinali@umich.edu"><i class="fa-solid fa-envelope"></i><span>selinali@umich.edu</span></a>
+    <a href="https://github.com/selina-lii"><i class="fa-brands fa-github"></i><span>github.com/selina-lii</span></a>
+    <a href="https://www.linkedin.com/in/selina-lii/"><i class="fa-brands fa-linkedin"></i><span>linkedin.com/in/selina-lii</span></a>
+   </p> 
+</footer>
+
+</html>
+
+
+<anti-social social network>
+    
