@@ -70,7 +70,7 @@ pre {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(3,1fr);
     grid-gap: 10px;
     width: 90%;
     margin: 5px auto;
