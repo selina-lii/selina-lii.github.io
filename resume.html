@@ -15,37 +15,48 @@
 <body>
     <nav>
         <ul>
-          <li><a href="/index.html/#me"><span style="color: #2d2d2d;">SELINA LI</span> >>></a></li>
+          <li><a href="/index.html"><span style="color: #2d2d2d;">SELINA LI</span> >>></a></li>
           <li><a href="/resume.html">RESUME</a></li>
-          <li><a href="/index.html/#web">Full Stack</a></li>
-          <li><a href="/index.html/#ml">ML & Data</a></li>
+          <li><a href="/index.html">Full Stack</a></li>
+          <li><a href="/index.html">ML & Data</a></li>
           <!-- <li><a href="#tools">Tools</a></li> -->
-          <li><a href="/index.html/#art">Engineering+</a></li>
+          <li><a href="/index.html">Engineering+</a></li>
           <!-- <li><a style="color: #ECEBE4;" href="./ddbh/ddbh.html"></a></li> -->
         </ul>
     </nav>
 
+    <div class="resume-section">
     <div class="resume-section-title">
         <h2>Resume</h2>
         <div>
-            <h4 class="bar">Education</h4>
-            <h4 class="bar">Experience</h4>
-            <h4 class="bar">Projects</h4>
-            <h4 class="bar">Courses</h4>
-            <h4 class="bar">Activities</h4>
+            <h4 class="bar"><a href="#edu">Education</a></h4>
+            <h4 class="bar"><a href="#exp">Experience</a></h4>
+            <h4 class="bar"><a href="#proj">Projects</a></h4>
+            <h4 class="bar"><a href="#act">Activities</a></h4>
+            <h4 class="bar"><a href="#course">Courses</a></h4>
         </div>
     </div>
-    <br>
 
+    <div class="resume-section">
+        <div class="resume-section-title" id="edu">Highlight</div>
+    <p class="resume-highlight-text">Bridging computational research and software development with creative solutions.<br>
+        <br>
+        Strong in self-learning and adaptability. <br>Interdiscplinary collaboration experiences in Data solutions, Machine learning, software development, biomedical sciences, and engineering.<br>
+    </p>
+</div>
+</div>
+
+
+    </div>
         <div class="resume-section">
-            <div class="resume-section-title">
+            <div class="resume-section-title" id="edu">
                 Education
             </div>
-            <div class="education">
+            <div class="education center-section">
                 <h4 class="degree">Bachelor of Science - Computer Science & Neuroscience</h4>
                 <p class="'school">University of Michigan–Ann Arbor, Sep 2021 – Dec 2024</p>
             </div>
-            <div class="education">
+            <div class="education center-section">
                 <h4 class='degree'>Bachelor of Engineering - Computer Engineering</h4>
                 <p class='school'>Beihang University, Sep 2018 – Jun 2020, Beijing, China (Transferred out)</p>
             </div>
@@ -53,14 +64,14 @@
 
 
         <div class="resume-section">
-            <div class="resume-section-title">
+            <div class="resume-section-title" id="exp">
                 Experience
             </div>
             <div class="experience"> 
-                <h4 class="experience-title">Software Development Research Assistant - Lab of Integrated Brain Imaging, University of Michigan School of Engineering</h4>
+                <h4 class="experience-title">Software Development Research Assistant - Lab of Integrated Brain Imaging,<br> University of Michigan Electrical & Computer Engineering</h4>
                 <p class="'experience-info">May 2023 – Present, Ann Arbor, MI</p>
                 <ul class="resume-bullets">
-                    <li>Developed amri-pipeline, a user-friendly Python package for the lab’s generative models for medical images.</li>
+                    <li>Led the development of amri-pipeline, a user-friendly Python package for generative models of fMRI medical images.</li>
                     <li>Architected modular interfaces for 5 deep learning models (CNN, β-VAE, BERT) and 4 data types (NIfTI, CIfTI)
                         leveraging OOP design patterns, enabling model application via single functions like encode() and decode().</li>
                     <li>Constructed data loader, adapter, signal pre-processing (FFT), geometric transform, and accuracy evaluation functions as part of the end-to-end data pipeline.</li>
@@ -72,7 +83,7 @@
                 <p class="'experience-info">April 2023 – Present, Remote</p>
                 <ul class="resume-bullets">
                     <li>Volunteered to pilot a 3D visualization feature in an open-source software tool for neuroimaging experiments (Pinpoint), filling the void for intuitive visualization of two-photon miscroscopy data.</li>
-                    <li>Built sockets between Unity C# backend and Python APIs to send user videos on Node.js server, enabling precise render of brain activity onto 3D models via shader graphs.</li>
+                    <li>Built sockets between Unity C# backend and Python APIs to send user videos on Node.js server, enabling precise mapping of brain activity onto 3D models.</li>
                     <li>Created documentations, Jupyter sample usages, and helped project founder manage Git repo. Supported users from 50+ research labs nationwide.</li>
                 </ul>
             </div>
@@ -80,10 +91,10 @@
             <h4 class="experience-title">Neural Data Research Assistant - Michigan Neuroscience Institute, Burgess Lab</h4>
             <p class="'experience-info">May 2022 – Apr 2023, Ann Arbor, MI</p>
             <ul class="resume-bullets">
+                <li>Innovated a flexible file GUI for tracking data pipeline status using PyQt based on initial ideas from neuroscientists, saving 20+ hours per experiment for the team.</li>
                 <li>Migrated a 20TB neural dataset stored on disk by a self-designed schema to MongoDB Atlas, designed Python APIs to save and query data, achieving 95% speedup in analysis.</li>
                 <li>Applied ML metrics (K-L div) to perform EDA on 120,000 neuronal activity traces in Python. Created extensive visualizations and
                      presented findings to 100+ audience at the summer symposium.</li>
-                <li>Innovated a flexible file GUI for tracking data pipeline status using PyQt based on initial ideas from neuroscientists, saving 20+ hours per experiment for the team.</li>
             </ul>
         </div>
         <div class="experience">
@@ -102,7 +113,7 @@
             </ul>
         </div>
         <div class="experience">
-        <h4 class="experience-title">TuSimple – Autonomous Trucking Simulation Intern</h4>
+        <h4 class="experience-title">Simulation Intern - TuSimple (Autonomous Trucking)</h4>
         <p class="'experience-info">Aug 2020 – Oct 2020, Beijing, China</p>
         <ul class="resume-bullets">
             <li>Collaborated with PM to define and build 250+ edge-case simulations on Triton, identified safety risks in 70% of
@@ -111,13 +122,28 @@
             <li>Enhanced self-driving algorithm reliability by 14% in real-life road tests.</li>
         </ul>
     </div>
-
       
         </div>
 
+        <div class="resume-section">
+            <div class="resume-section-title" id="act">
+                Activities
+            </div>
+            <div class="experience">
+                <h4 class="experience-title">AERO Formula Racing - Brakes Lead</h4>
+                <p class="'experience-info">Jan 2019 – Oct 2020</p>
+                <ul class="resume-bullets">
+                    <li>2019: Engineered pedal box for FSAE Electric, including conceptualization, modeling, FEA optimization, blueprinting, part purchasing, assembly, and cost analysis. National Top 10 in competition.</li>
+                    <li>2020: Coordinated braking system integration for combustion, electric and autonomous cars with other sub teams. Mentored 5 new members during the design cycle.</li>
+                    <li>Helped research and build an emergency braking system for the team's first autonomous vehicle.</li>
+                </ul>
+            </div>
+        </div>
+
+        
 
         <div class="resume-section">
-            <div class="resume-section-title">
+            <div class="resume-section-title" id="proj">
                 Projects
             </div>
             <div class="experience">
@@ -132,27 +158,43 @@
                         channel to a web interface using ReactJS and SQLite. Deployed to AWS EC2 and validated on 30K web pages.</li>
                 </ul>
             </div>
-            </div>
-        </div>
 
-        <div class="resume-section">
-            <div class="resume-section-title">
-                Activities
-            </div>
             <div class="experience">
-                <h4 class="experience-title">AERO Formula Racing - FSAE Brakes Lead</h4>
-                <p class="'experience-info">Jan 2019 – Oct 2020</p>
-                <ul class="resume-bullets">
-                    <li>2019: Engineered pedal box for FSAE Electric, including conceptualization, modeling, FEA optimization, blueprinting, part purchasing, assembly, and cost analysis. National Top 10 in competition.</li>
-                    <li>2020: Coordinated braking system integration for combustion, electric and autonomous cars with other sub teams. Mentored 5 new members during the design cycle.</li>
-                    <li>Helped research and build an emergency braking system for the team's first autonomous vehicle.</li>
+            <h4 class="experience-title">Social Media Database | Oracle, SQL, MongoDB, NoSQL, Java</h4>
+            <p class="'experience-info"></p>
+            <ul>
+                <li class="resume-bullet">Designed database architecture for a Facebook-like service, supporting interaction of 1,000+ users.</li>
+                <li class="resume-bullet">Created ER diagram and relational schema of 18 tables/views to extract user profiles from semi-structured source data.</li>
+                <li class="resume-bullet">Developed and optimized 9 SQL queries in a Java API (JDBC), for recommendation features like potential friends, nearby events and top-trending posts.</li>
+                <li class="resume-bullet">Fulfilled 30+ business requirements with full testing accuracy and all queries under 50% time constraint.</li>
+            </ul>
+
+            <div class="experience">
+                <h4 class="experience-title">Pipelining CPU | Verilog</h4>
+                <p class="'experience-info"></p>
+                <ul>
+                    <li class="resume-bullet">Built a multi-cycle CPU in Verilog supporting 50+ MIPS instructions that can execute C programs.</li>
+                    <li class="resume-bullet">Maintained flexible code structure that allows adding of 3 new instructions during 2-hour test sessions.</li>
+                    <li class="resume-bullet">Created Python tools including a Verilog instantiator and an Assembly test case generator.</li>
+                    <li class="resume-bullet">Performed unit testing to clear 100% data hazards.</li>
                 </ul>
             </div>
+
+            <div class="experience">
+                <h4 class="experience-title">Assembly Toolchain | C, C++</h4>
+                <p class="'experience-info"></p>
+                <ul>
+                    <li class="resume-bullet">Built fully functional assembler, linker, and simulator in C/C++ to execute multi-file LC2K assembly programs.</li>
+                    <li class="resume-bullet">Constructed a simulated hardware system, including multi-cycle CPU and configurable cache to validated program execution, passed all testing with high effciency.</li>
+                </ul>
+            </div>
+
+            </div>
         </div>
 
-        
+
         <div class="resume-section">
-            <div class="resume-section-title">
+            <div class="resume-section-title" id="course">
                 Coursework
             </div>
             <div class="skills">

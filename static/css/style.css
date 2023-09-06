@@ -53,6 +53,7 @@ pre {
 
 .bar {
   display: inline;
+  padding: 2vw;
 }
 .small-text{
   font-size: 150%;
@@ -69,7 +70,7 @@ pre {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    grid-template-columns: repeat(2, 2fr);
     grid-gap: 10px;
     width: 90%;
     margin: 5px auto;
@@ -274,15 +275,28 @@ footer a {
   text-transform: uppercase;
 }
 
-
+.center-section {
+  text-align: center;
+}
 
 .resume-section {
   margin: auto;
   max-width: 1000px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 .resume-section h4 {
   font-weight: 600;
 }
 .resume-section ul li {
   margin-bottom: 3px;
+}
+.resume-section a {
+  color: black;
+}
+.resume-highlight-text {
+  text-align: center;
+  font-size: 130%;
+  font-weight: 400;
+  text-transform: capitalize;
 }
