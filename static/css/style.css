@@ -7,6 +7,9 @@ html, body {
     font-family: "Montserrat";
   }
 
+a,i { color:#2d2d2d;
+text-underline-offset: 20%; }
+
 div {
     margin: 0;
     padding: 0;
@@ -16,10 +19,9 @@ pre {
   font-family: "Montserrat"; 
 }
 
-.max-svg {
-  position: relative;
-  width: 100%;
-  }
+h4 {
+  font-weight: 600;
+}
 
 .personal-info-grid-container {
   display: grid;
@@ -53,7 +55,8 @@ pre {
 
 .bar {
   display: inline;
-  padding: 2vw;
+  padding: 1vw;
+  background-color: #F9F7F5;
 }
 .small-text{
   font-size: 130%;
@@ -76,7 +79,7 @@ pre {
     margin: 5px auto;
   }
 
-.grid-container img {
+.grid-item img {
     object-fit: contain;
     height: 100%;
     width: 100%; 
@@ -162,7 +165,7 @@ nav ul li {
 nav ul li a {
     width: 10em;
     display: block;
-    color: darkgrey;
+    color: #8d8d8d;
     text-align: center;
     padding: 0.2em 0.2em;
     transition: 0.3s;
@@ -274,27 +277,40 @@ footer a {
 /* Divider: https://codepen.io/mnicpt/pen/nzNdBm */
 
 
-
 .resume-section-title {
   text-align: center;
-  font-size: large;
-  font-weight: 500;
+  font-size: medium;
+  font-weight: 700;
   text-transform: uppercase;
-}
-
-.center-section {
-  text-align: center;
+  color: black;
+  margin-bottom: 2;
 }
 
 .resume-section {
+  background-color:#F9F7F5;
+  border-radius: 5%;
   margin: auto;
-  max-width: 800px;
+  max-width: 1000px;
   margin-top: 5vh;
   margin-bottom: 5vh;
-  font-size: 90%;
+  font-size: 100%;
+  padding: 3%;
 }
-.resume-section h4 {
+.experience-title {
   font-weight: 600;
+  text-align: center;
+}
+
+.experience-info {
+  margin-top: 1;
+}
+.project-title{
+  font-weight: 500;
+  text-align: center;
+}
+
+.education-title{
+  text-align: center;
 }
 .resume-section ul li {
   margin-bottom: 3px;
