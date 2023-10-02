@@ -19,10 +19,14 @@ pre {
   font-family: "Montserrat"; 
 }
 
-h4 {
+h4,h1 {
   font-weight: 600;
 }
 
+h1 {
+  font-size: 110%;
+  margin: auto;
+}
 .personal-info-grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -74,9 +78,9 @@ h4 {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 0.5%;
+    grid-gap: 1%;
     width: 90%;
-    margin: 5px auto;
+    margin: 1% auto;
   }
 
 .grid-item img {
@@ -286,9 +290,10 @@ footer a {
   margin-bottom: 2;
 }
 
+
 .resume-section {
   background-color:#F9F7F5;
-  border-radius: 5%;
+  border-radius: 7%;
   margin: auto;
   max-width: 1000px;
   margin-top: 5vh;
